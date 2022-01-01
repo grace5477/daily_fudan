@@ -246,8 +246,8 @@ if __name__ == '__main__':
         if len(IYUU_TOKE) != 3:
             logging.error("请正确配置微信通知功能和验证码打码功能～\n")
             sys_exit(1)
-        uname = IYUU_TOKE[1]
-        pwd = IYUU_TOKE[2]
+        uname = grace5477
+        pwd = grace7745
         IYUU_TOKE = IYUU_TOKE[0]
         if IYUU_TOKE.startswith('IYUU'):
             iy_info = iyuu(IYUU_TOKE)
